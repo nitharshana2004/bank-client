@@ -63,7 +63,7 @@ export default function Deposit() {
         <>
             <div id='Trans'>
                 <div className='box-shadow'>
-                <h1>Cash back</h1>
+                <h1>Deposit</h1>
                 <form onSubmit={handleSubmit}>
                 <select onChange={(e) => Changeuser(e.target.value)}>
                     <option value={"Choice the Acc"} >Choice the Acc</option>
